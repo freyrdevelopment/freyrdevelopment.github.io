@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 
-
     <title>malmock.shop</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="https://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
@@ -12,24 +11,28 @@
             background-size: 100%;
             background-repeat: no-repeat;
             font-family: 'thegoodmonolith', thegoodmonolith!important;
+            
         }
         bg-text {
+            
           background-color: rgb(0, 0, 0); /* Fallback color */
-          background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+          background-color: rgba(0, 0, 0, 0.555); /* Black w/opacity/see-through */
           color: white;
           font-weight: bold;
-          border: px solid #f1f1f1;
+          
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
           z-index: 2;
-          width: 75%;
+          width: 30%;
           height: 20%;
           padding: 80px;
           text-align: center;
+          
         }
         button {
+           
             background-color: #000000; /* Green */
             border: none;
             color: rgb(255, 255, 255);
@@ -40,25 +43,9 @@
             font-size: 16px;
             font-weight: bold;
             font-family: thegoodmonolith;
+            
         }
 </style>
 </head>
-    <audio id = "myAudioID"><source src="wei.mp3" type="audio/mpeg"></source></audio>
     
-    <bg-text><h1>Main page or whatever</h1><br>made for fun!<br><br><button onclick="location.href = '/artist';" type="button">Artist</button><button onclick="location.href = '/malmock';" type="button">Malmock</button></bg-text>
-    <script>
-        
-        var myAudio = document.getElementById('myAudioID');
-        var on = false;
-        function playAudio() { 
-            if (on) {
-                on = !on
-                myAudio.pause(); 
-                console.log("paused");
-            } else {
-                on = !on
-                myAudio.play();
-                console.log("played");
-            }
-        } 
-    </script>
+    <bg-text><h1>malmock.shop</h1><br>shut up yokieee my web design is good<br><br><button onclick="location.href = '/artist';" type="button">Artist</button><button onclick="location.href = '/malmock';" type="button">Malmock</button></bg-text>

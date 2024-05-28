@@ -9,17 +9,19 @@
 <style>
         body {
             background-image: url("https://cdn.nest.rip/uploads/7241b58b-d676-449e-bc59-78e4cbba66be.png");
+            background-size: 100vh;
             font-family: 'thegoodmonolith', thegoodmonolith!important;
         }
         bg-text {
           background-color: rgb(0, 0, 0); /* Fallback color */
-          background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+          background-color: rgba(0, 0, 0, 0.555); /* Black w/opacity/see-through */
           color: white;
           font-weight: bold;
           border: px solid #f1f1f1;
           position: absolute;
           top: 50%;
           left: 50%;
+          border-radius: 7%;
           transform: translate(-50%, -50%);
           z-index: 2;
           width: 30%;
@@ -27,7 +29,7 @@
           text-align: center;
         }
         button {
-            background-color: #000000; /* Green */
+            background-color: #000000c9; /* Green */
             border: none;
             color: rgb(255, 255, 255);
             padding: 15px 32px;
@@ -37,13 +39,11 @@
             font-size: 16px;
             font-weight: bold;
             font-family: thegoodmonolith;
-        }
-        img {
-            border-radius: 50%;
-        }       
+            border-radius: 7%;
+        }   
 </style>
 </head>
-    <audio id = "myAudioID"><source src="ddot.mp3" type="audio/mpeg"></source></audio>
+    <audio id = "myAudioID"><source src="content/ddot.mp3" type="audio/mpeg"></source></audio>
     
     <bg-text><h1>artist</h1><br>https://t.me/matchmakings<br>https://t.me/swapcentres<br>doing tmo iccid lookups $450<br>selling cb panel $400 lmk for demo video<br><br><button onclick="playAudio()" type="button">Press</button></bg-text>
     <script>

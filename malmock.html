@@ -8,13 +8,13 @@
     <link href="https://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
 <style>
         body {
-            background-image: url("https://cdn.nest.rip/uploads/aed32b45-d9e7-4dc1-a68b-48f4a77b8c3f.png");
-            background-size: 100%;
+            background-image: url(content/kitty.gif);
+            background-size: 100vh;
             font-family: 'thegoodmonolith', thegoodmonolith!important;
         }
         bg-text {
           background-color: rgb(0, 0, 0); /* Fallback color */
-          background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+          background-color: rgba(0, 0, 0, 0.555); /* Black w/opacity/see-through */
           color: white;
           font-weight: bold;
           border: px solid #f1f1f1;
@@ -26,9 +26,10 @@
           width: 30%;
           padding: 20px;
           text-align: center;
+          border-radius: 7%;
         }
         button {
-            background-color: #000000; /* Green */
+            background-color: #000000c9; /* Green */
             border: none;
             color: rgb(255, 255, 255);
             padding: 15px 32px;
@@ -38,10 +39,11 @@
             font-size: 16px;
             font-weight: bold;
             font-family: thegoodmonolith;
+            border-radius: 7%;
         }
 </style>
 </head>
-    <audio id = "myAudioID"><source src="wei.mp3" type="audio/mpeg"></source></audio>
+    <audio id = "myAudioID"><source src="content/wei.mp3" type="audio/mpeg"></source></audio>
     
     <bg-text><h1>Malmock</h1><br>hates nns - loves cats<br>Coding languages:<br>C++, C#, node.js, python and java.<br><br><button onclick="playAudio()" type="button">Press</button></bg-text>
     <script>
